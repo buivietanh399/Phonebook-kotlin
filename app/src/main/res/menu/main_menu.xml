@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_phone"
+        android:title="Phone"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_message"
+        android:title="Message"
+        android:icon="@drawable/baseline_cloud_download_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_mail"
+        android:title="Mail"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="never"/>
+</menu>
